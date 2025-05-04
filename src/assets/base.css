@@ -1,0 +1,47 @@
+:root {
+  --color-primary: #ffffff;
+  --color-button: #008bfe;
+  --color-button-hover: #006fcb;
+  --color-bg: #f0f4f8;
+  --color-border: #cce8ff;
+  --color-font: #222222;
+  --color-text: #000000
+  --color-done: #09bb00;
+  --color-close: #d00303;
+
+  --font-family: "Roboto", sans-serif;
+  --second-family: "Montserrat", sans-serif;
+}
+
+@font-face {
+  font-family: var(--font-family);
+  src: url('../fonts/RobotoRegular.woff2');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: var(--font-family);
+  src: url('../fonts/RobotoBold.woff2');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: var(--second-family);
+  src: url('../fonts/MontserratSemiBold.woff2');
+  font-style: normal;
+}
+
+body {
+  min-height: 100vh;
+  font-family: var(--font-family);
+  background: var(--color-bg);
+  font-size: 15px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  align-content: center;
+}
